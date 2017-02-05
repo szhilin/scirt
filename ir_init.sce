@@ -21,6 +21,7 @@ end
 // Load macros
 exec('ir_plotline.sci', -1);
 exec('ir_scatter.sci', -1);
-//exec('ir_predict.sci', -1);
+exec('ir_linprog.sci', -1);
+exec('ir_predict.sci', -1);
 
 disp('Interval Regression Toolbox is ready.');
